@@ -30,67 +30,33 @@ p{
 }
 
 div img{
-    width:150px;
-    height: 150px;
+    width:200px;
+    height: 200px;
     display:block;
     margin:auto;
+    border:2px solid blue;
 }
 
 div{
   display: inline-block;
-  width: 24%;
+  width: 90%;
   margin: 5px;
   padding: 2px;
 }
-
-
-
 @media screen and (min-width:772px){
 
     div{
         width:45vw;
-
     }
     img{
-        max-height:30vh;
+        max-height: 30vh;
     }
-
 
 }
 @media screen and (min-width:998px){
 
     div{
         width:30vw;
-
     }
     
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
